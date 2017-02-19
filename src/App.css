@@ -28,6 +28,14 @@
   opacity: 0.5;
 }
 
-.profile-image {
-
+.transparent-image-jobs {
+  opacity: 0.5;
 }
+
+.full-width {
+  width: 100%;
+}
+
+.inherit-color {
+  color: inherit;
+} 
