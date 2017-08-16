@@ -175,16 +175,16 @@ class App extends Component {
               companyUrl='http://www.docandme.com/' />
             <Profile
               image='https://s3.ap-northeast-2.amazonaws.com/startup-grind/profile_alex.jpeg'
-              description='No description available'
+              description='Hailing from Asheville, NC, Alex attended the University of Pennsylvania for his undergrad and Johns Hopkins for grad school where he studied International Economics. After working for a few years in Silicon Valley at various startups, he moved to Korea as he was attracted by the potential of the Korean startup ecosystem.'
               name='Alex Gershon'
-              companyName=''
+              companyName='Hyperconnect'
               snsUrl='https://www.linkedin.com/in/alexgershon/'
               snsName='LinkedIn'
-              companyUrl='' />
+              companyUrl='https://career.hpcnt.com/about-hyperconnect/' />
             <Profile
               image='https://s3.ap-northeast-2.amazonaws.com/startup-grind/profile_seon.jpg'
-              description='No description available'
-              name='Seon Park'
+              description='A graduate of Chung-Ang University and the UCLA School of Public Health, Seonyoung, has worked as a Korean/English interpreter/translator over 10 years across various industries. She is passionate about startups and helps with live translations at Startup Grind Seoul. In her free time, she loves traveling the world and watching live jazz.'
+              name='Seonyoung Park'
               snsUrl=''
               snsName=''
               companyName=''
@@ -192,20 +192,38 @@ class App extends Component {
           </div>
         </div>
 
-
-
-
-
         <div className="parallax-container valign-wrapper">
           <div className="section no-pad-bot">
             <div className="container">
-              <div className="row center">
-                <h5 className="header col s12 light">Startup Grind is a community designed to inspire, and connect entrepreneurs.</h5>
+              <br/><br/>
+              <h3 className="header center white-text text-lighten-2">Startup Grind Korea Blog</h3>
+              <div className="row center hide-on-med-and-down">
+                <a href="https://www.startupgrind.com/seoul/" id="download-button" className="btn-large waves-effect waves-light red lighten-1">See more posts</a>
               </div>
+              <br/><br/>
             </div>
           </div>
           <div className="parallax black darken-4"><img src="https://s3.ap-northeast-2.amazonaws.com/startup-grind/startup_grind_2_tablet.jpg" className="transparent-image" alt="Unsplashed background img 3" /></div>
         </div>
+
+          <div className="row">
+            <div className="col s12">
+              <ul className="collapsible" data-collapsible="accordion">
+                <li>
+                  <div className="collapsible-header"><i className="material-icons">filter_drama</i>First</div>
+                  <div className="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+                </li>
+                <li>
+                  <div className="collapsible-header"><i className="material-icons">place</i>Second</div>
+                  <div className="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+                </li>
+                <li>
+                  <div className="collapsible-header"><i className="material-icons">whatshot</i>Third</div>
+                  <div className="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+                </li>
+              </ul>
+            </div>
+          </div>
 
         <footer className="page-footer red lighten-1">
           <div className="container">
