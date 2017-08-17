@@ -116,7 +116,8 @@ class App extends Component {
                 <p style={styles.blogSpacer2}>
                   <br/>
                   Dear [Person’s Name], My name is [Your Name] and I’m currently doing [Insert Occupation] in South Korea. I’ve been following [Insert Company Product] very closely and love how you’ve been able to do X while improving Y. I was wondering if you’ve thought about [Insert something that shows you’ve thought critical about their company]? I’d love to grab a quick coffee with you to learn more about [their product, their company, etc.]. Please let me know when and where are most convenient for you.
-                  <br/>Best, Your Name
+                  <br/>Best,
+                  <br/>Your Name
                   <br/><br/>
                 </p>
                 <p style={styles.blogSpacer}>
