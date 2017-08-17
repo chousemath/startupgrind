@@ -18,7 +18,7 @@ export default class Profile extends Component {
         <div className="col s12 m3">
           <div className="card">
             <div className="card-image waves-effect waves-block waves-light">
-              <img className="activator profile-image" src={this.props.image} />
+              <img className="activator profile-image" src={this.props.image} alt={this.props.name} />
             </div>
             <div className="card-content">
               <span className="card-title activator grey-text text-darken-4">{this.props.name}<i className="material-icons right">more_vert</i></span>

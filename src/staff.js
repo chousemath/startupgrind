@@ -3,7 +3,7 @@ import Profile from './profile';
 
 export default class Staff extends Component {
   render() {
-    var members = [
+    let members = [
       {
         name: 'Joon Oh',
         image: 'https://s3.ap-northeast-2.amazonaws.com/startup-grind/profile_joon.jpg',
