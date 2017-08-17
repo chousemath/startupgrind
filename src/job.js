@@ -8,7 +8,7 @@ export default class Job extends Component {
           <div className="card">
             <div className="card-image">
               <div className="black darken-4">
-                <img className="transparent-image-jobs" src={this.props.imgUrl} />
+                <img className="transparent-image-jobs" src={this.props.imgUrl} alt={this.props.imgAlt} />
               </div>
               <span className="card-title"><a className="inherit-color" href={this.props.companyUrl}>{this.props.title}</a></span>
               <a href={this.props.formUrl} className="btn-floating halfway-fab waves-effect waves-light red"><i className="material-icons">add</i></a>
